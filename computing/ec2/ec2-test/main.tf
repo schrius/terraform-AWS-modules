@@ -1,4 +1,4 @@
-resource "aws_iam_policy" "test-policy" {
+resource "aws_iam_policy" "test_policy" {
   name        = var.policy_name
   path        = "/"
   description = "My test policy"
